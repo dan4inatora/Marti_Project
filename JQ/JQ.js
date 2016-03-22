@@ -57,6 +57,21 @@ $('.RegisterForm').fadeIn(250);
 
     });
 
+$('.RegisterPopup').click(function(){
 
+            $('.RegisterForm').fadeOut(250);
+            $('.LoginForm').fadeIn(250);
+            $('.FullScreen').fadeIn(250);
+
+
+    });
+$('.LoginPopup').click(function(){
+
+            $('.LoginForm').fadeOut(250);
+            $('.RegisterForm').fadeIn(250);
+            $('.FullScreen').fadeIn(250);
+
+
+    });
 });
 
