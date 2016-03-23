@@ -1,0 +1,384 @@
+.Navigation
+{
+	float: left;
+	width: 44%;
+	margin-right: 28%;
+	margin-left: 28%;
+	
+}
+
+nav a
+{	
+	font-family: Arial;
+	color:#383838;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	margin: 3% 2% 3% 2%;
+	padding: 0.8% 4% 0.8% 4%;
+	transition: outline-color 0.5s ease;
+	outline: 2px solid white;
+	font-size: 1vw;
+	
+	
+
+}
+
+.Login
+{
+	padding-left: 5.44%;
+	padding-right: 5.44%;
+}
+.Home
+{	
+
+	padding-left: 5.44%;
+	padding-right: 5.44%;
+	margin-left:  8%;
+
+}
+nav a:hover
+{
+  outline: 0.1vw solid black;
+}
+#active_page
+{
+	outline: 0.1vw solid black;	
+}
+.TopPic
+{	
+	
+	background-image: url("bg_3.jpg");
+	min-height: 900px;
+    background-attachment: fixed;
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.WhiteNav
+{
+	width: 100%;
+	float: left;
+	background-color: white;
+	box-shadow: 1px 1px 100px rgba(0,0,0,0.5);
+	}
+body , html
+{
+	margin: 0px;
+	padding: 0px;
+}
+body:before {
+          content: "";
+          position: fixed;
+          top: -10px;
+          left: 0;
+          width: 100%;
+          height: 10px;
+
+          
+                         box-shadow: 0px 0px 18px rgba(0,0,0,.8);
+
+          z-index: 100;
+}
+.LoginForm
+{
+	z-index: 200;
+	display: none;
+	background-color: white;
+	position: absolute;
+	top: 36%;
+	right: 42%;
+	float: left;
+	width: 17.5%;
+	margin: auto;
+	border-radius: 20px;
+}
+form input
+{
+	font-size: 1vw;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	margin-top: 6%;
+	margin-bottom: 2%;
+	margin-left: 15%;
+	margin-right: 15%;
+	float: left;
+	display: block;
+	width: 70%;
+
+}
+
+.LoginDiv
+{
+
+	display: block;
+	font-family: Arial;
+	font-size: 1.5vw;
+	color: white;
+	text-align: center;
+	background-color: #657383;
+	padding-bottom: 4%;
+	padding-top: 4%;
+	border-radius: 20px 20px 0px 0px;
+	box-shadow: 1px 1px 80px rgba(0,0,0,0.5);
+
+}
+.Button a
+{
+	color: white;
+	text-decoration: none;
+	background-color: #657383;
+	font-family: Arial;
+	font-size: 1.2vw;
+	float: left;
+	display: block;
+	width: 47%;
+	margin-top: 10%;
+	margin-bottom: 16%;
+	margin-left: 14%;
+	padding-bottom: 4%;
+	padding-top: 4%;
+	padding-left: 25%;
+	border-radius: 10px;
+}
+.Button a:hover
+{
+	background-color:#BCC6CC ;
+	color: black;
+
+
+}
+.UsernameInput
+{
+	margin-top: 12%;
+}
+.help
+{
+
+	margin-left: 15.5%;
+	font-size: 0.7vw;
+	color: black ;
+	font-family: Arial;
+	display: block;
+
+}
+.RegisterForm
+{
+	z-index: 200;
+	display: none;
+	background-color: white;
+	position: absolute;
+	top: 27%;
+	right: 42%;
+	float: left;
+	width: 17.5%;
+	border-radius: 20px;
+}	
+
+.RegisterForm input
+{
+	font-size: 1vw;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	margin-top: 6%;
+	margin-bottom: 3%;
+	margin-left: 15%;
+	margin-right: 15%;
+	float: left;
+	display: block;
+	width: 70%;
+}
+.RegisterDiv
+{
+	display: block;
+	font-family: Arial;
+	font-size: 1.5vw;
+	text-align: center;
+	color: white;
+	background-color: #657383;
+	padding-bottom: 4%;
+	padding-top: 4%;
+	padding-left: 2%;
+	margin: auto;
+	border-radius: 20px 20px 0px 0px;
+	box-shadow: 1px 1px 80px rgba(0,0,0,0.5);
+}
+.help1
+{
+	margin-left: 15.5%;
+	font-size: 0.7vw;
+	color: black ;
+	font-family: Arial;
+	display: block;
+	}
+.FullScreen
+{
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background:rgba(15,15,15,0.7);
+    z-index: 100;
+}
+
+.LoginDiv img
+{
+	width: 6%;
+	position: relative;
+	left: 28%;
+	cursor: pointer;
+}
+
+.RegisterDiv img
+{
+	width: 6%;
+	position: relative;
+	left: 23%;
+	cursor: pointer;
+}
+
+@font-face {
+    font-family: Pinyon;
+    src: url(PinyonScript-Regular.ttf);
+}
+
+.Title
+{
+	width: 50%;
+    font-family: Pinyon;
+    color: white;
+    font-size: 3.3vw;
+    position: absolute;
+    bottom: 45%;
+    margin: 0% 25%;
+}
+.Logo_Pic img
+{
+	width: 100%;
+
+}
+.Logo_Pic
+{
+	width: 20%;
+	margin:0% 40%;
+	
+}
+.Logo_Text
+{
+
+	width: 56%;
+	margin: 0% 22%;
+	font-weight: bold;
+	text-align: center;
+
+}
+.Logo_Bottom_Text
+{
+	width: 50%;
+	margin: 2% 25% 0% 25%;
+	font-size: 2.2vw;
+	text-align: center;
+}
+
+
+.Description
+{
+	width: 100%;
+	display: inline;
+}
+.Picture img
+{
+	float: left;
+	width: 50%;
+}
+.Info
+{
+	float: right;
+	width: 50%;
+	font-family: arial;
+	padding-bottom: 26.4%;
+}
+.Info h3
+{
+	text-align: center;
+}
+
+.Description1
+{
+	width: 100%;
+	float: left;
+}
+.Picture1 img
+{
+	float: right;
+	width: 50%;
+}
+.Info1
+{
+	float: left;
+	width: 50%;
+	font-family: arial;
+
+}
+.Info1 h3
+{
+	text-align: center;
+}
+
+
+/*.Footer {
+	background-color: #657383;
+	width: 100%;
+	display: block;
+	float: left;
+	color: #fff;
+	font-family: Calibri;
+	padding-bottom: 2%;
+}
+
+.ContactUs
+{
+	margin-left: 25%;
+	width: 50%;
+	text-align: center ;
+	font-size: 0.95vw;
+}
+
+.SocialMedia
+{
+	display: block;
+	margin-left: 14%;
+	width: 50%;
+}
+.SocialMedia img
+{
+	width: 15%;
+	float: right;
+	margin-right: 2.5%;
+}
+
+.Copyright
+{
+	float: left;
+	width: 33.5%;
+	padding-left: 3%;
+	margin-top: 3%;
+	font-size: 0.9vw;
+}
+*/
+footer
+{
+	float: left;
+}
+.Copyright
+{
+	font-size: 3vw;
+	color: red;
+}
